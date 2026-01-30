@@ -56,4 +56,4 @@ jobs:
               ${{ secrets.DOCKER_USER }}/re-shopping-cart-web-app:latest
 
             echo ">>> Status & logs"
-            docker ps -a --filter "name=re-shopping-cart-web-app
+            docker ps -a --filter "name=re-shopping-cart-web-app"
