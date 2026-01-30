@@ -6,7 +6,7 @@ spring:
     name: re-shopping-cart-web-app
 
   profiles:
-    active: prod # Production development
+    active: prod # Production
     # active: local # Local development
 
   datasource:
